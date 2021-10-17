@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "KurrXd",
+  "author": "Willy Supranata",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
