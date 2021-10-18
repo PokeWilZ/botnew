@@ -1002,13 +1002,13 @@ if (!settings.autorecording) {
 denz.updatePresence(from, Presence.recording)
 }
 if (budy.startsWith('Denz')){
-sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© KurrXd_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© Willy Supranata_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
-reply('http://instagram.com/kurrsadboy')
+reply('http://instagram.com/willysupranataa')
 }
 if(isButton == 'ytm'){
-reply('http://youtube.com/c/KurrXd')
+reply('http://youtube.com/c/Willy Supranata')
 }
 
    const sotoy = [
@@ -1073,7 +1073,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =`S H E R L Y N N 🦈`
+menu =`WiLLY BOT`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`owner`,buttonText:{displayText:'OWNER'},type:1},
@@ -1105,7 +1105,7 @@ else if(menusimpel = true){
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
        menu = `┌───「 \`\`\`${NamaBot}\`\`\` 」
 │
-├ _Creator : *KurrXd* (CUMAN RECODE)
+├ _Creator : *Willy Supranata* (CUMAN RECODE)
 ├ _Battery : ${baterai.battery}_
 ├ _Mode : ${publik ? 'Public' : 'Self'}_
 ├ _Total Hit : ${cmhit.length}_
@@ -1135,8 +1135,8 @@ case 'allmenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await denz.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = '🦈 S H E R L Y N N 🦈'
-       ownerJid = "6281220670449@s.whatsapp.net"
+       nama = 'WiLLY BOT'
+       ownerJid = "6282286896563@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 menunya = `╭─❒ 「 Bot Info 」 ❒
@@ -1440,15 +1440,15 @@ if(menuall == false){
 function _0x21f8(){var _0x5b970c=['5573144JYwLrC','528103swWGih','image/jpeg','HZ7GZtD+MZleBjG1flbeTuZkDThPV6frfERXi4zTBvs=','readFileSync','69880vdqygB','431675fOwedq','3264wpwOzQ','3ucdrq0UyCuNG5YcUD9aKX4qkuvcip+OonjhACusy5Q=','988644bxSaXV','19894ILewVQ','2QmpxNq','66214','9999999','1341KlrShJ','2506689kwMmco','./denz.jpg'];_0x21f8=function(){return _0x5b970c;};return _0x21f8();}function _0x4cac(_0x23a824,_0x283a6f){var _0x21f8ef=_0x21f8();return _0x4cac=function(_0x4cacde,_0x3311de){_0x4cacde=_0x4cacde-0xc7;var _0x13ea77=_0x21f8ef[_0x4cacde];return _0x13ea77;},_0x4cac(_0x23a824,_0x283a6f);}var _0xcdc6be=_0x4cac;(function(_0x130db2,_0x4b9859){var _0x3cd68e=_0x4cac,_0x5ee5d3=_0x130db2();while(!![]){try{var _0x2ac92a=-parseInt(_0x3cd68e(0xce))/0x1*(-parseInt(_0x3cd68e(0xc7))/0x2)+parseInt(_0x3cd68e(0xcb))/0x3+-parseInt(_0x3cd68e(0xd6))/0x4+-parseInt(_0x3cd68e(0xd3))/0x5+parseInt(_0x3cd68e(0xd4))/0x6*(parseInt(_0x3cd68e(0xd7))/0x7)+-parseInt(_0x3cd68e(0xcd))/0x8+parseInt(_0x3cd68e(0xca))/0x9*(-parseInt(_0x3cd68e(0xd2))/0xa);if(_0x2ac92a===_0x4b9859)break;else _0x5ee5d3['push'](_0x5ee5d3['shift']());}catch(_0x5691cb){_0x5ee5d3['push'](_0x5ee5d3['shift']());}}}(_0x21f8,0xccadb),anu=denz['prepareMessageFromContent'](from,{'productMessage':{'product':{'productImage':{'url':'https://mmg.whatsapp.net/d/f/Aj5vJ5V6aD4eIRoj-9Q26GBNXq_AeVscAB9ENRvLEPmO.enc','mimetype':_0xcdc6be(0xcf),'fileSha256':_0xcdc6be(0xd0),'fileLength':_0xcdc6be(0xc8),'height':0x2d0,'width':0x2d0,'mediaKey':_0xcdc6be(0xd5),'fileEncSha256':'ifE4O/SNQnPWVe8ya6QZlshnaqIDLcvWFJT4RQ4Bbvk=','jpegThumbnail':fs[_0xcdc6be(0xd1)](_0xcdc6be(0xcc))},'productId':_0xcdc6be(0xc9),'title':''+nama,'description':''+menunya,'productImageCount':0x1},'businessOwnerJid':''+ownerJid,'contextInfo':{'forwardingScore':0x270f,'isForwarded':!![]}}},{'quoted':ftrol,'contextInfo':{'mentionedJid':[dtod,otod,stod]}}),denz['relayWAMessage'](anu));
                   } else if(menuall = true){
 gbutsan = [
-{buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
-{buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1},
-{buttonId:`script`,buttonText:{displayText:'🤖SEWABOT🤖'},type:1}
+{buttonId:`owner`,buttonText:{displayText:'OWNER'},type:1},
+{buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1},
+{buttonId:`script`,buttonText:{displayText:'SEWABOT'},type:1}
 ]
 mhan = await denz.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `S H E R L Y N N`,
+footerText: `Willy Supranata`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -1463,22 +1463,22 @@ const serialUser = createSerial(18)
 	        fs.writeFileSync('./database/registered.json', JSON.stringify(_registered))
 	        addRegisteredUser(sender, serialUser)
 	         const jancok = `╭─❒ 「 Verify 」 ❒
-├ *🦈 Nama :* ${pushname}
-├ *🦈 Nomor :* @${sender.split('@')[0]}
-├ *🦈 Seri:* ${serialUser}
-├ *🦈 Pengguna:* ${_registered.length}
+├ * Nama :* ${pushname}
+├ * Nomor :* @${sender.split('@')[0]}
+├ * Seri:* ${serialUser}
+├ * Pengguna:* ${_registered.length}
 └❏
 
 *「 ${NamaBot} 」*`
 gbutsan = [
-{buttonId:`menu`,buttonText:{displayText:'🦈MENU🦈'},type:1},
-{buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1}
+{buttonId:`menu`,buttonText:{displayText:'MENU'},type:1},
+{buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1}
 ]
 mhan = await denz.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_© SHERLYNN_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_© Willy Supranata_*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -1491,7 +1491,7 @@ case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© S H E R L Y N N_*',
+ footerText: '*_© Willy Supranata_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -3097,7 +3097,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 const buttons = [{buttonId: 'autorespon on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autorespon off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const btnharam = {
     contentText: `${anu}`,
-    footerText: '*_©SHERLYNN_*',
+    footerText: '*_© Willy Supranata_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3117,7 +3117,7 @@ await denz.sendMessage(from, btnharam, MessageType.buttonsMessage, {quoted: ftro
 const buttons = [{buttonId: 'antideletee on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'antideletee off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
-    footerText: '*_©SHERLYNN_*',
+    footerText: '*_© Willy Supranata_*',
     buttons: buttons,
     headerType: 1
 }
@@ -3315,9 +3315,9 @@ res = await mediafireDl(teks)
 result = `*「 MEDIAFIRE DOWNLOAD 」*
 
 *Data Berhasil Didapatkan!*
-\`\`\`🦈 Nama : ${res[0].nama}\`\`\`
-\`\`\`🦈 Ukuran : ${res[0].size}\`\`\`
-\`\`\`🦈 Link : ${res[0].link}\`\`\`
+\`\`\` Nama : ${res[0].nama}\`\`\`
+\`\`\` Ukuran : ${res[0].size}\`\`\`
+\`\`\` Link : ${res[0].link}\`\`\`
 
 _File sedang dikirim, Silahkan tunggu beberapa menit_`
 reply(result)
@@ -4744,15 +4744,15 @@ break
                 const filter1 = await ytsd.getFilters(input)
                 const filters1 = filter1.get('Type').get('Video')
                 const { items } = await ytsd(filters1.url, { limit: 10 })
-                let hehe = `*🦈 YOUTUBE SEARCH*
-*🦈 Search Query:* ${input}\n\n`
+                let hehe = `* YOUTUBE SEARCH*
+* Search Query:* ${input}\n\n`
                 for (let i = 0; i < items.length; i++) {
                     hehe += `───────────────\n
-*🦈 Judul:* ${items[i].title}
-*🦈 Id:* ${items[i].id}
-*🦈 Ditonton:* ${items[i].views}
-*🦈 Durasi:* ${items[i].duration}
-*🦈 Link:* ${items[i].url}\n\n`
+* Judul:* ${items[i].title}
+* Id:* ${items[i].id}
+* Ditonton:* ${items[i].views}
+* Durasi:* ${items[i].duration}
+* Link:* ${items[i].url}\n\n`
                 }
                 thumb = await getBuffer(items[0].bestThumbnail.url)
                 await denz.sendMessage(from, thumb, image, {quoted: ftrol, caption: `${hehe}───────────────\n
